@@ -1,0 +1,240 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+eLibraryManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:eLibraryManagementSystem.eLibraryDataSet3.BooksInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet3.BooksInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet3.BooksInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.BooksInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(eLibraryManagementSystem.eLibraryDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(eLibraryManagementSystem.eLibraryDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(eLibraryManagementSystem.eLibraryDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.TableAdapterManager.UpdateAll(eLibraryManagementSystem.eLibraryDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eLibraryManagementSystem.Database1DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:eLibraryManagementSystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:eLibraryManagementSystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet2.BooksInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet2.BooksInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet2.BooksInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.BooksInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(eLibraryManagementSystem.eLibraryDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(eLibraryManagementSystem.eLibraryDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(eLibraryManagementSystem.eLibraryDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.TableAdapterManager.UpdateAll(eLibraryManagementSystem.eLibraryDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet.StudentInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet.StudentInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet.StudentInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSetTableAdapters.StudentInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(eLibraryManagementSystem.eLibraryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(eLibraryManagementSystem.eLibraryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(eLibraryManagementSystem.eLibraryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSetTableAdapters.TableAdapterManager.UpdateAll(eLibraryManagementSystem.eLibraryDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet1.LibrarianInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet1.LibrarianInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet1.LibrarianInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.LibrarianInfoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(eLibraryManagementSystem.eLibraryDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(eLibraryManagementSystem.eLibraryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(eLibraryManagementSystem.eLibraryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.TableAdapterManager.UpdateAll(eLibraryManagementSystem.eLibraryDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eLibraryManagementSystem.eLibraryDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>
